@@ -18,12 +18,12 @@ class Ackerman {
 	        input = scan.next();
 	        try {
 	        	exp = Integer.parseInt(input);
-	        	if(exp <= 3){
+	        	if(exp <= 3&& exp >1){
 	        		break;
 	        	}
-	        	else System.out.println("Type a number smaller than 4");
+	        	else System.out.println("Type a number smaller than 4 and bigger than 1");
 	        } catch (NumberFormatException ne) {
-	            System.out.println("Type a number smaller than 4");
+	            System.out.println("Type a number smaller than 4 and bigger than 1");
 	        }
 	    }
 		
