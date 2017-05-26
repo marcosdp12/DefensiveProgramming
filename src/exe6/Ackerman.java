@@ -37,7 +37,7 @@ class Ackerman {
 					System.out.println("current value is " + ackValue);
 				}
 			}
-			System.out.println("Ackerman vlue: " + ackValue);
+			System.out.println("Ackerman value: " + ackValue);
 		}
 	}
 }
